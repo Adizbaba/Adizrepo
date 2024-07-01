@@ -1277,7 +1277,7 @@ nav .menu.active span:nth-child(2) {
 /* ---------------Contact--------------- */
 
 
-.contact {
+.contact .fs-frm {
   margin-bottom: 3rem;
   color: black;
   background-color: var(--deepback-color);
