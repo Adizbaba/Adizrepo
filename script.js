@@ -34,7 +34,7 @@ menu.addEventListener("click", () => {
 
 // -----Scroll Reveal------
 
-ScrollReveal({ reset: true });
+ScrollReveal({ reset: false });
 
 ScrollReveal().reveal(".experience-nimasa, .craft-content", {
   duration: 1000,
@@ -77,7 +77,7 @@ ScrollReveal().reveal(" .head-content, .second-cards", {
     easing: 'ease-out',
     origin: 'bottom',
     reset: true,
-    scale: .9,
+    scale: .6,
     viewFactor: 0,
     afterReveal: revealChildren,
   }, 150);
@@ -93,7 +93,7 @@ ScrollReveal().reveal(" .head-content, .second-cards", {
   }, 75);
 })();
 
-ScrollReveal().reveal('.content1, .map-picture', { duration: 5000 });
+ScrollReveal().reveal('.content1, .map-picture', { duration: 2000 });
 
 //team-title
 ScrollReveal().reveal(' .digit-content h2', { duration: 1500 });
